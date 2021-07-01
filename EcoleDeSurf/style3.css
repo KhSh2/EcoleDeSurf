@@ -1,0 +1,53 @@
+/*html,
+body,
+header,
+#intro {
+    height: 100%;
+}*/
+
+/*#intro {
+    background: url("surf.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
+.jumbotron-hero {
+    /* Choisis la hauteur ici */
+    height: 100vh;
+  
+    /* Tu lui donnes une image de background */
+    background-image: url("https://images.pexels.com/photos/4319752/pexels-photo-4319752.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  
+    /* Centre l'image et la met bien sur tous les écrans */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+/*.card
+{
+    border:none;
+}*/
+.fas {
+    
+}
+
+
+#mainly 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#Cards
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
